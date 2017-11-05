@@ -4,21 +4,32 @@
 
 NPM:
 ```bash
-npm install @infinumjs/stylelint-config
+npm install @infinumjs/stylelint-config --save-dev
 ```
 
 Yarn:
 ```bash
-yarn add @infinumjs/stylelint-config
+yarn add @infinumjs/stylelint-config -D
 ```
 
-## Generic support
+## Usage
+
+If you've installed `@infinumjs/stylelint-config` locally within your project, just set your stylelint config to:
 
 ```json
 {
   "extends": "@infinumjs/stylelint-config"
 }
 ```
+
+If you've globally installed `@infinumjs/stylelint-config` using the -g flag, then you'll need to use the absolute path to `@infinumjs/stylelint-config` in your config e.g.
+
+```json
+{
+  "extends": "/absolute/path/to/@infinumjs/stylelint-config"
+}
+```
+
 
 ## License
 
