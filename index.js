@@ -29,6 +29,7 @@ module.exports = {
     "length-zero-no-unit": true,
 
     "string-no-newline": true,
+    "unit-no-unknown": true,
     "string-quotes": "single",
 
     "value-no-vendor-prefix": true,
@@ -58,6 +59,7 @@ module.exports = {
     "block-no-empty": true,
     "block-opening-brace-newline-after": "always",
     "block-opening-brace-newline-before": "always-single-line",
+    "block-opening-brace-space-before": "always",
 
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
@@ -298,6 +300,8 @@ module.exports = {
         "text-shadow"
       ]
     },
-    { "unspecified": "bottomAlphabetical" }
+    {
+      "unspecified": "bottomAlphabetical"
+    }
   ],
 }
