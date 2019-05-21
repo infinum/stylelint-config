@@ -23,11 +23,10 @@
     "npm-run-all": "^4.0.0",
     "remark-cli": "^4.0.0",
     "remark-preset-lint-consistent": "^2.0.0",
-    "remark-preset-lint-recommended": "^3.0.0",
-    "stylelint": "^8.2.0"
+    "remark-preset-lint-recommended": "^3.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.2.0 || ^9.x"
+    "stylelint": "^8.2.0 || ^9.x || ^10.x"
   },
   "scripts": {
     "lint:js": "eslint . --ignore-path .gitignore",
