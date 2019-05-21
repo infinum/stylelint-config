@@ -1,6 +1,6 @@
 {
   "name": "@infinumjs/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Infinum's shareable config for stylelint",
   "keywords": [
     "stylelint",
