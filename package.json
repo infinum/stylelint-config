@@ -26,7 +26,7 @@
     "remark-preset-lint-recommended": "^3.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=14.6.1",
+    "stylelint": ">=13.0.0",
     "stylelint-config-recommended-scss": ">=6.0.0"
   },
   "scripts": {
